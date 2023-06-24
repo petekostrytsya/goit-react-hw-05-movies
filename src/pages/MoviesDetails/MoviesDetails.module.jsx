@@ -24,10 +24,6 @@ export const GoBackLink = styled.span`
     -webkit-transform: rotate(45deg);
   }
 
-  span {
-    color: #ffc700;
-  }
-
   :hover,
   :focus {
     color: #ffc700;
@@ -57,12 +53,13 @@ export const FilmTitle = styled.h2`
 
 export const FilmSubTitle = styled.h3`
   font-size: 16px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 `;
 
 export const FilmDescr = styled.p`
   font-size: 16px;
-  color: #888888;
+  color: yellow;
+  background-color: #7a89df;
   margin-bottom: 12px;
 `;
 
@@ -73,15 +70,16 @@ export const StyledListDescr = styled.ul`
   padding: 0;
 
   border-radius: 20px;
-  color: #888888;
+  color: yellow;
   margin-bottom: 12px;
 `;
+
 export const StyledList = styled.ul`
   display: flex;
   gap: 18px;
   padding: 14px;
 
-  border-radius: 20px;
+  /* border-radius: 20px; */
 `;
 export const ListItem = styled.li`
   span {

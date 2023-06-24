@@ -6,7 +6,7 @@ export const StyledList = styled.ul`
 export const ListItem = styled.li`
   font-size: 14px;
   padding: 6px;
-  background-color: #2a2a2a;
+  background-color: #7a89df;
   border-radius: 14px;
 
   :not(:last-child) {
@@ -18,6 +18,6 @@ export const ListItem = styled.li`
   }
 `;
 export const ReviewsDescr = styled.p`
-  color: #888888;
+  color: #e4e0cd;
   margin-top: 6px;
 `;
