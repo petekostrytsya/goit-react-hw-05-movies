@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 export const FilmsList = styled.ul`
   margin-top: 12px;
 `;
-
 export const FilmsItem = styled.li`
   font-weight: 400;
   font-size: 14px;
